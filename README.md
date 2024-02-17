@@ -10,5 +10,10 @@ The ball is allowed to move with one degree of freedom on the beam. One end of t
 To model the losses and friction of the motor and the conveyor belt that transfers force to the beam, we use a damper with a constant of b. And to model the delay that occurs, we use a spring with stiffness K. Ultimately, considering the described conditions, the equations governing the system will be as follows:
 
 $(J_b/r^2+m)\ddot{x} + 1/r(mr^2 + J_b)\ddot{\alpha} - mx\dot{\alpha}^2 = mgsin(\alpha)$
+
 $(mx^2 + J_b + J_w)\ddot{\alpha} + (2m\dot{x}x + bl^2)\dot{\alpha} + Kl^2\alpha + 1/r(mr^2 + J_b)\ddot{x} - mgxcos(\alpha) = u(t)lcos(a)$
 
+| Symbol | Parameter | Value |
+| --- | --- | --- |
+| m | ball mass | 0.27kg |
+| r | ball radius | 0.02m |
