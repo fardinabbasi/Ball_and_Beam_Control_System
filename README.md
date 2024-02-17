@@ -1,1 +1,1 @@
-# Ball_and_Beam_Control_System
+# Ball and Beam Control System
