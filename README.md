@@ -15,5 +15,7 @@ $(mx^2 + J_b + J_w)\ddot{\alpha} + (2m\dot{x}x + bl^2)\dot{\alpha} + Kl^2\alpha 
 
 | Symbol | Parameter | Value |
 | --- | --- | --- |
-| m | ball mass | 0.27kg |
-| r | ball radius | 0.02m |
+| m | ball mass | $0.27kg$ |
+| r | ball radius | $0.02m$ |
+| b | beam friction | $1Ns/m$ |
+| K | spring stiffness | $10^-3N/m$ |
