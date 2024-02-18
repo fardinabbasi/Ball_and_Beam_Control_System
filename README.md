@@ -55,7 +55,8 @@ The state values over a 10-second period are illustrated below.
 
 ## Phase 1
 ### Q2
-The set of differential equations is linearized about the equilibrium point [0, 0, 0, 0] in the following manner:
+The set of differential equations is linearized around the $X_{eq} = (0, 0, 0, 0)^T$ in the following manner:
+
 
 * $\dot{X} = AX+Bu$
 * $Y = CX + Du$
@@ -99,3 +100,33 @@ Eigen values of the linearized system are outlined as:
 $$ \lambda_1 = 2.98, \lambda_2=-3.84, \lambda_{3,4}=-0.428&plusmn3.367i $$
 
 Since $λ_1$ is positive, the system is unstable unless this mode is controllable.
+### Q4
+
+$$
+Co = \left(\begin{array}{cc} 
+B & AB & A^2B & A^3B\\
+\end{array}\right) = \left(\begin{array}{cc} 
+0&-0.0699&0.1198&24.3479\\
+-0.0699&0.1198&24.3479&-41.8051\\
+0&3.4965&-5.9903&7.6137\\
+3.4965&-5.9903&7.6137&-8.5053
+\end{array}\right)
+$$
+
+$$
+Ob = \left(\begin{array}{cc} 
+C\\
+CA\\
+CA^2\\
+CA^3
+\end{array}\right) = \left(\begin{array}{cc} 
+1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & 1\\
+-0.3780 & 0 & 7.0147 & 0.0343\\
+18.9001 & 0 & -0.3797 & -1.7133\\
+0.6476 & -0.3780 & -0.0130 & 6.9560\\
+-32.3809 & 18.9001 & 0.6506 & 2.5556
+\end{array}\right)
+$$
