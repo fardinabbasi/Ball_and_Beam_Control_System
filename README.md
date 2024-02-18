@@ -50,4 +50,7 @@ $C_1=B_{11}+B_{12}, C_2=B_{21}+B_{22}+B_{23}+B_{24}$
 
 $det(A)=A_{11}\times A_{22}-A_{12}\times A_{21}$
 
+The state values over a 10-second period are illustrated below.
+<img src="/readme_images/equations.png">
 
+## Phase 1
