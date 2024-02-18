@@ -13,13 +13,22 @@ $(J_b/r^2+m)\ddot{x} + 1/r(mr^2 + J_b)\ddot{\alpha} - mx\dot{\alpha}^2 = mgsin(\
 
 $(mx^2 + J_b + J_w)\ddot{\alpha} + (2m\dot{x}x + bl^2)\dot{\alpha} + Kl^2\alpha + 1/r(mr^2 + J_b)\ddot{x} - mgxcos(\alpha) = u(t)lcos(a)$
 
+The values of the parameters are written as follows:
 | Symbol | Parameter | Value |
 | --- | --- | --- |
-| $m$ | ball mass | $0.27kg$ |
-| $r$ | ball radius | $0.02m$ |
-| $b$ | beam friction | $1Ns/m$ |
-| $K$ | spring stiffness | $10^{-3}N/m$ |
-| $l$ | force application distance | $0.49m$ |
+| $m$ | Ball mass | $0.27kg$ |
+| $r$ | Ball radius | $0.02m$ |
+| $b$ | Beam friction | $1Ns/m$ |
+| $K$ | Spring stiffness | $10^{-3}N/m$ |
+| $l$ | Force application distance | $0.49m$ |
 | $J_w$ | Moment of inertia of the beam | $14.025\times 10^{-2} kg.m^2$ |
 | $J_b$ | Moment of inertia of the ball | $4.32\times 10^{-5} kg.m^2$ |
 | $g$ | Gravity of earth | $9.81m/s^2$ |
+
+To study the behavior of the system, 4 state variables, 1 control input, and 2 outputs are defined as follows:
+* $x_1$: position of the ball
+* $x_2$: velocity of the ball
+* $x_3$: Angle of the beam
+* $x_4$: Angular velocity of the beam
+* $u$: Input voltage
+* _Outputs_: position of the ball & angle of the beam
