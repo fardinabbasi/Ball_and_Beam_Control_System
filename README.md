@@ -15,7 +15,11 @@ $(mx^2 + J_b + J_w)\ddot{\alpha} + (2m\dot{x}x + bl^2)\dot{\alpha} + Kl^2\alpha 
 
 | Symbol | Parameter | Value |
 | --- | --- | --- |
-| m | ball mass | $0.27kg$ |
-| r | ball radius | $0.02m$ |
-| b | beam friction | $1Ns/m$ |
-| K | spring stiffness | $10^-3N/m$ |
+| $m$ | ball mass | $0.27kg$ |
+| $r$ | ball radius | $0.02m$ |
+| $b$ | beam friction | $1Ns/m$ |
+| $K$ | spring stiffness | $10^{-3}N/m$ |
+| $l$ | force application distance | $0.49m$ |
+| $J_w$ | Moment of inertia of the beam | $14.025\times 10^{-2} kg.m^2$ |
+| $J_b$ | Moment of inertia of the ball | $4.32\times 10^{-5} kg.m^2$ |
+| $g$ | Gravity of earth | $9.81m/s^2$ |
