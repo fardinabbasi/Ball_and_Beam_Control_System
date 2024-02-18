@@ -56,3 +56,40 @@ The state values over a 10-second period are illustrated below.
 ## Phase 1
 ### Q2
 The set of differential equations is linearized about the equilibrium point [0, 0, 0, 0] in the following manner:
+
+* $\dot{X} = AX+Bu$
+* $Y = CX + Du$
+
+_Where_
+
+$$
+A = \left(\begin{array}{cc} 
+0 & 1 & 0 & 0\\
+-0.378 & 0 & 7.0147 & 0.0343\\
+0 & 0 & 0 & 1\\
+18.9 & 0 & -0.3797 & -1.7133
+\end{array}\right)
+$$
+
+$$
+B = \left(\begin{array}{cc} 
+0\\
+-0.07\\
+0\\
+3.5
+\end{array}\right)
+$$
+
+$$
+C = \left(\begin{array}{cc} 
+1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0
+\end{array}\right)
+$$
+
+$$
+D = \left(\begin{array}{cc} 
+0\\
+0
+\end{array}\right)
+$$
