@@ -54,3 +54,5 @@ The state values over a 10-second period are illustrated below.
 <img src="/readme_images/equations.png">
 
 ## Phase 1
+### Q2
+The set of differential equations is linearized about the equilibrium point [0, 0, 0, 0] in the following manner:
