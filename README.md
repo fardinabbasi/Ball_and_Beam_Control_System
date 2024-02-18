@@ -151,6 +151,7 @@ G_2(s)
 $$
 
 Since order of the transform function is equal to the number of state variables, the system representation is minimal.
+<!--
 ### Q5
 $$
 e^{At} = \left(\begin{array}{cc} 
@@ -160,4 +161,4 @@ e^{At} = \left(\begin{array}{cc}
 1.07e^{3t}-1.78e^{-3.85t}+e^{-0.43} (0.7 cos⁡(3.37t)+2.72 sin⁡(3.37t))& 0.36e^{3t}+0.46e^{-3.85t}+e^{-0.43t} (-0.82 cos⁡(3.37t)+0.1 sin⁡(3.37t))& 0.82e^{3t}-0.8e^{-3.85t}+e^{-0.43t} (-0.14 cos⁡(3.37t)-1.76 sin⁡(3.37t))&0.177e^{3t}+0.371e^{-3.85t}+e^{-0.43t} (0.45 cos⁡(3.37t)-0.18 sin⁡(3.37t))
 \end{array}\right)
 $$
-
+-->
