@@ -93,3 +93,9 @@ D = \left(\begin{array}{cc}
 0
 \end{array}\right)
 $$
+### Q3
+Eigen values of the linearized system are outlined as:
+
+$$ \lambda_1 = 2.98, \lambda_2=-3.84, \lambda_{3,4}=-0.428&plusmn3.367i $$
+
+Since $λ_1$ is positive, the system is unstable unless this mode is controllable.
