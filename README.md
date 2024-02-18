@@ -101,6 +101,7 @@ $$ \lambda_1 = 2.98, \lambda_2=-3.84, \lambda_{3,4}=-0.428&plusmn3.367i $$
 
 Since $λ_1$ is positive, the system is unstable unless this mode is controllable.
 ### Q4
+The controllability matrix is presented as:
 
 $$
 Co = \left(\begin{array}{cc} 
@@ -112,6 +113,10 @@ B & AB & A^2B & A^3B\\
 3.4965&-5.9903&7.6137&-8.5053
 \end{array}\right)
 $$
+
+Since the controllability matrix is full-rank, the system is controllable.
+
+Also, the observability matrix is presented as:
 
 $$
 Ob = \left(\begin{array}{cc} 
@@ -130,3 +135,5 @@ CA^3
 -32.3809 & 18.9001 & 0.6506 & 2.5556
 \end{array}\right)
 $$
+
+Since the observability matrix is full-rank, the system is observable.
