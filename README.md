@@ -35,4 +35,17 @@ To study the behavior of the system, 4 state variables, 1 control input, and 2 o
 * 
 State equations are written as follows:
 
-$A_{11} = \frac{J_b}{r^2}+m, A_{12}=(m\times r^2+J_b)/r, A_{21}=A_{12}, A_{22}=m\times x_1^2+J_w+J_B$
+* $\dot{x_1}=x_2$
+* $\dot{x_2}=\frac{A_{22}\times C_1-A_{12}\times C_2}{det(A)}$
+* $\dot{x_3}=x_4$
+* $\dot{x_4}=\frac{-A_{21}\times C_1+A_{11}\times C_2}{det(A)}$
+
+Where
+
+$A_{11} = \frac{J_b}{r^2}+m, A_{12}=\frac{m\times r^2+J_b}{r}, A_{21}=A_{12}, A_{22}=m\times x_1^2+J_w+J_B$
+
+$B_{11}=mgsin(x_3), B_{12}=mx_1x_4^2, B_{21}=lcos(x_3)u, B_{22}=mgx_1cos(x_3), B_{23}=-kl^2x_3, B_{24}=-(2mx_1x_2+bl^2)x_4$
+
+$C_1=B_{11}+B_{12}, C_2=B_{21}+B_{22}+B_{23}+B{24}$
+
+$det(A)=A_{11}\times A_{22}-A_{12}\times A_{21}$
