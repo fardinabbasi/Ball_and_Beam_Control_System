@@ -164,4 +164,8 @@ $$
 -->
 ### Q6
 Poles of $G(s)$ are $[2.98, -0.428 &plusmn 3.366, -3.84]$.
-Zeros of $G_1(s)$ are &plusmn 18.7 and the zero of $G_2(s)$ is 0.
+
+Zeros of $G_1(s)$ are $&plusmn 18.7$ and the zero of $G_2(s)$ is 0.
+
+_Coefficients less than 10^-4 are considered to be 0._
+### Q7
