@@ -169,3 +169,9 @@ Zeros of $G_1(s)$ are $&plusmn 18.7$ and the zero of $G_2(s)$ is 0.
 
 _Coefficients less than 1e-4 are considered to be 0._
 ### Q7
+The non-linear system is simulated as below.
+<img src="/readme_images/non_lin_sys.png">
+The step response of the non-linear system with a PID controller is shown below.
+<img src="/readme_images/non_lin_res.png">
+
+The linearized system is also tuned using a PID controller, with the following properties.
