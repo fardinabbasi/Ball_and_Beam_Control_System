@@ -171,10 +171,13 @@ _Coefficients less than 1e-4 are considered to be 0._
 ### Q7
 The non-linear system is simulated as below.
 <img src="/readme_images/non_lin_sys.png">
-The step response of the non-linear system with a PID controller is shown below.
-<img src="/readme_images/non_lin_res.png">
+The simulation results of the non-linear system with a PID controller is shown below.
+| 3D render | Step response|
+| --- | --- |
+| <img src="/readme_images/non_lin_pid.gif" width="540" height="350"> | <img src="/readme_images/non_lin_res.png" width="535" height="262"> |
 
 The linearized system is also tuned using a PID controller, with the following properties.
+
 <img src="/readme_images/lin_sys.jpg">
 
 The step response is shown below.
