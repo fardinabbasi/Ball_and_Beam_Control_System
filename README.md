@@ -169,12 +169,16 @@ Zeros of $G_1(s)$ are $&plusmn 18.7$ and the zero of $G_2(s)$ is 0.
 
 _Coefficients less than 1e-4 are considered to be 0._
 ### Q7
+**Non-linear system**
+
 The non-linear system is simulated as below.
 <img src="/readme_images/non_lin_sys.png">
 The simulation results of the non-linear system with a PID controller is shown below.
 | 3D render | Step response|
 | --- | --- |
 | <img src="/readme_images/non_lin_pid.gif" width="540" height="350"> | <img src="/readme_images/non_lin_res.png" width="535" height="262"> |
+
+**Linearized system**
 
 The linearized system is also tuned using a PID controller, with the following properties.
 
@@ -184,3 +188,13 @@ The step response is shown below.
 <img src="/readme_images/lin_res.png">
 This system cannot be stabilized using a compensator.
 ### Q8
+If we remove the unstable pole of the system, the linearized system will be stabilized, but the main nonlinear system will still remain unstable.
+
+**Non-linear system**
+
+The simulation results of the non-linear system are presented as follows.
+| 3D render | Step response|
+| --- | --- |
+| <img src="/readme_images/non_lin_pole_pid.gif" width="540" height="350"> | <img src="/readme_images/non_lin_pole_res.png" width="535" height="262"> |
+
+**Linearized system**
