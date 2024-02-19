@@ -178,5 +178,4 @@ The linearized system is also tuned using a PID controller, with the following p
 <img src="/readme_images/lin_sys.jpg">
 
 The step response is shown below.
-The linearized system is also tuned using a PID controller, with the following properties.
 <img src="/readme_images/lin_res.png">
