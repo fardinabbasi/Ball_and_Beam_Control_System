@@ -175,3 +175,8 @@ The step response of the non-linear system with a PID controller is shown below.
 <img src="/readme_images/non_lin_res.png">
 
 The linearized system is also tuned using a PID controller, with the following properties.
+<img src="/readme_images/lin_sys.jpg">
+
+The step response is shown below.
+The linearized system is also tuned using a PID controller, with the following properties.
+<img src="/readme_images/lin_res.png">
