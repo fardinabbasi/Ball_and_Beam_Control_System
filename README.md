@@ -176,7 +176,7 @@ The non-linear system is simulated as below.
 The simulation results of the non-linear system with a PID controller is shown below.
 | 3D render | Step response|
 | --- | --- |
-| <img src="/readme_images/non_lin_pid.gif" width="540" height="350"> | <img src="/readme_images/non_lin_res.png" width="535" height="262"> |
+| <img src="/readme_images/non_lin_pid.gif"> | <img src="/readme_images/non_lin_res.png"> |
 
 **Linearized system**
 
@@ -195,7 +195,7 @@ If we remove the unstable pole of the system, the linearized system will be stab
 The simulation results of the non-linear system are presented as follows.
 | 3D render | Step response|
 | --- | --- |
-| <img src="/readme_images/non_lin_pole_pid.gif" width="500" height="350"> | <img src="/readme_images/non_lin_pole_res.png" width="535" height="262"> |
+| <img src="/readme_images/non_lin_pole_pid.gif"> | <img src="/readme_images/non_lin_pole_res.png"> |
 
 **Linearized system**
 
