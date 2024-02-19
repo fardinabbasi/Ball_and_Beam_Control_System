@@ -191,7 +191,7 @@ This system cannot be stabilized using a compensator.
 If we remove the unstable pole of the system, the linearized system will be stabilized, but the main nonlinear system will still remain unstable.
 
 **Non-linear system**
-
+<img src="/readme_images/non_lin_pole_sys.png">
 The simulation results of the non-linear system are presented as follows.
 | 3D render | Step response|
 | --- | --- |
