@@ -179,3 +179,5 @@ The linearized system is also tuned using a PID controller, with the following p
 
 The step response is shown below.
 <img src="/readme_images/lin_res.png">
+This system cannot be stabilized using a compensator.
+### Q8
