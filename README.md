@@ -207,3 +207,5 @@ The simulation results of the linearized system are presented as follows.
 | States | Outputs|
 | --- | --- |
 | <img src="/readme_images/lin_pole_states.png" width="500" height="350"> | <img src="/readme_images/line_pole_out.png" width="535" height="262"> |
+
+## Phase 2
