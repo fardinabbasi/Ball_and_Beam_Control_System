@@ -232,3 +232,43 @@ The outputs for both state feedbacks are depicted below.
 | Outputs | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/d_fast_out.png"> | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/d_slow_out.png"> |
 
 The final value changes every time the disturbance is added.
+### Q3
+$$
+\left(\begin{array}{cc} 
+\dot{x}\\
+\dot{q}
+\end{array}\right) = \left(\begin{array}{cc} 
+A & 0\\
+-C & 0
+\end{array}\right)
+\left(\begin{array}{cc} 
+x\\
+q
+\end{array}\right) + 
+\left(\begin{array}{cc} 
+B\\
+0
+\end{array}\right) u +
+\left(\begin{array}{cc} 
+0\\
+I
+\end{array}\right)
+$$
+
+$$
+\overline{A} = \left(\begin{array}{cc} 
+0 & 1 & 0 & 0 & 0\\
+-0.378 & 0 & 7.0147 & 0.0343 & 0\\
+0 & 0 & 0 & 1 & 0\\
+18.9 & 0 & -0.3797 & -1.713&0\\
+-1 & 0 & 0 & 0 & 0
+\end{array}\right)
+, 
+\overline{B} = \left(\begin{array}{cc} 
+0\\
+-0.0699\\
+0\\
+3.4965\\
+0
+\end{array}\right)
+$$
