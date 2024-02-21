@@ -289,3 +289,4 @@ A white noise with a power of 0.3 and a 20-second sampling time is introduced in
 | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/d_ref_state.png"> | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/d_ref_out.png"> |
 
 As shown, whenever a disturbance is added, the system attempts to track the input and eliminate the disturbance.
+### Q5
