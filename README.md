@@ -292,7 +292,7 @@ As shown, whenever a disturbance is added, the system attempts to track the inpu
 ### Q5
 A full-order Luenberger observer is designed with poles at $[-4,-6,-8,-10]$.
 
-$\hat{X}=A\hat{X}+Bu+L(y-\hat{y})$
+$\dot{\hat{X}}=A\hat{X}+Bu+L(y-\hat{y})$
 
 _where_
 
@@ -304,3 +304,7 @@ L = \left(\begin{array}{cc}
 21.22&14.5\\
 \end{array}\right)
 $$
+
+The step response with the aforementioned state feedback $K_{fast}$ from the observer is depicted below.
+
+<img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/o_fast_out.png">
