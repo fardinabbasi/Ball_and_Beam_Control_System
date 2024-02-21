@@ -281,3 +281,11 @@ Since $(\overline{A}, \overline{B})$ is controllable, a state feedback gain is d
 | States | Outputs |
 | --- | --- |
 | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/ref_state.png"> | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/ref_out.png"> |
+### Q4
+A white noise with a power of 0.3 and a 20-second sampling time is introduced into the system.
+
+| States | Outputs |
+| --- | --- |
+| <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/d_ref_state.png"> | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/d_ref_out.png"> |
+
+As shown, whenever a disturbance is added, the system attempts to track the input and eliminate the disturbance.
