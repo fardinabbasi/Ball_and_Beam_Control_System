@@ -233,6 +233,8 @@ The outputs for both state feedbacks are depicted below.
 
 The final value changes every time the disturbance is added.
 ### Q3
+A reference tracker is designed with state feedback and integral control with the following properties.
+
 $$
 \left(\begin{array}{cc} 
 \dot{x}\\
@@ -272,3 +274,7 @@ $$
 0
 \end{array}\right)
 $$
+
+Since $(\overline{A}, \overline{B})$ is controllable, a state feedback gain is designed with poles at $[-1, -3, -4 , -5,-6]$.
+* State feedback gain: $K=[34.05 , 18.85 , 39.64 , 5.32 , -14.69]$.
+
