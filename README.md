@@ -70,9 +70,7 @@ A = \left(\begin{array}{cc}
 0 & 0 & 0 & 1\\
 18.9 & 0 & -0.3797 & -1.7133
 \end{array}\right)
-$$
-
-$$
+,
 B = \left(\begin{array}{cc} 
 0\\
 -0.07\\
@@ -86,9 +84,7 @@ C = \left(\begin{array}{cc}
 1 & 0 & 0 & 0\\
 0 & 0 & 1 & 0
 \end{array}\right)
-$$
-
-$$
+,
 D = \left(\begin{array}{cc} 
 0\\
 0
