@@ -220,7 +220,15 @@ Two state feedbacks are designed with fast and slow poles.
 | Step response | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/fast_step_res.jpg"> | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/slow_step_res.jpg"> |
 | Outputs | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/fast_out.png"> | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/slow_out.png"> 
 
-Two-state feedbacks are designed with fast and slow poles. As evident from both systems, the slower poles exhibit smoother movement and require more time to converge. However, a challenge arises when adjusting the poles: the final output value changes accordingly, unless the system converges to zero.
+As evident from both systems, the slower poles exhibit smoother movement and require more time to converge. However, a challenge arises when adjusting the poles: the final output value changes accordingly, unless the system converges to zero.
 
 Therefore, if the system is slow, the final value will be large, whereas a design with fast poles will yield a smaller final value, as demonstrated by this example, approximately 0.07.
 ### Q2
+A white noise with a power of 0.3 and a 10-second sampling time is introduced into the system.
+
+The outputs for both state feedbacks are depicted below.
+| \ | Fast poles | Slow poles |
+| --- | --- | --- |
+| Outputs | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/d_fast_out.png"> | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/d_slow_out.png"> |
+
+The final value changes every time the disturbance is added.
