@@ -290,7 +290,7 @@ A white noise with a power of 0.3 and a 20-second sampling time is introduced in
 
 As shown, whenever a disturbance is added, the system attempts to track the input and eliminate the disturbance.
 ### Q5
-A full-order Luenberger observer is designed with poles at $[-4,-6,-8,-10]$.
+Since $(A, C)$ is observable, a full-order Luenberger observer is designed with poles at $[-4,-6,-8,-10]$.
 
 $\dot{\hat{X}}=A\hat{X}+Bu+L(y-\hat{y})$
 
@@ -308,3 +308,5 @@ $$
 The step response with the aforementioned state feedback $K_{fast}$ from the observer is depicted below.
 
 <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/o_fast_out.png">
+
+### Q6
