@@ -209,3 +209,11 @@ The simulation results of the linearized system are presented as follows.
 | <img src="/readme_images/lin_pole_states.png" width="500" height="350"> | <img src="/readme_images/line_pole_out.png" width="535" height="262"> |
 
 ## Phase 2
+Two state feedbacks are designed with fast and slow poles.
+* Fast poles = $[-3, -4, -5, -6]$
+* Slow poles = $[-0.5, -0.7, -0.9, -1.1]$
+
+| | Fast poles | Slow poles |
+| --- | --- | --- |
+| State feedback gain | $K_{fast}=[20.0993, 13.9591, 34.2198, 4.9373]$ | $K_{slow}=[5.1497, 0.0771, 0.9613, 0.4268]$ |
+| Step response | <img src="/readme_images/fast_step_res.jpg"> | <img src="/readme_images/slow_step_res.jpg"> |
