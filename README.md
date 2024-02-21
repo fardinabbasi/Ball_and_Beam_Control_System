@@ -278,3 +278,6 @@ $$
 Since $(\overline{A}, \overline{B})$ is controllable, a state feedback gain is designed with poles at $[-1, -3, -4 , -5,-6]$.
 * State feedback gain: $K=[34.05 , 18.85 , 39.64 , 5.32 , -14.69]$.
 
+| States | Outputs |
+| --- | --- |
+| <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/ref_state.png"> | <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/ref_out.png"> |
