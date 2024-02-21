@@ -254,7 +254,7 @@ B\\
 \left(\begin{array}{cc} 
 0\\
 I
-\end{array}\right)
+\end{array}\right)r
 $$
 
 $$
