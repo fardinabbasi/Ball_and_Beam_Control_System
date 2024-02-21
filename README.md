@@ -290,3 +290,17 @@ A white noise with a power of 0.3 and a 20-second sampling time is introduced in
 
 As shown, whenever a disturbance is added, the system attempts to track the input and eliminate the disturbance.
 ### Q5
+A full-order Luenberger observer is designed with poles at $[-4,-6,-8,-10]$.
+
+$\hat{X}=A\hat{X}+Bu+L(y-\hat{y})$
+
+_where_
+
+$$
+L = \left(\begin{array}{cc} 
+15.9&0.88\\
+58.95&13.4\\
+0.468&10.38\\
+21.22&14.5\\
+\end{array}\right)
+$$
