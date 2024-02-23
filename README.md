@@ -312,9 +312,33 @@ A reduced-dimensional state estimator is desined based on the following procedur
 * $y_{l\times 1} = C_{l\times n}X_{n\times 1}$
 
 1. Select an arbitrary $n \times n$ stable matrix $F$ that has no eigenvalues in common with those of $A$.
+
+$$
+F = \left(\begin{array}{cc} 
+-6 & 0\\
+0 & -8\\
+\end{array}\right)
+$$
+
 2. Select an arbitrary $n \times 1$ vector $l$ such that $(F,l)$ is controllable.
+
+$$
+l = \left(\begin{array}{cc} 
+1 & 0\\
+0 & 1\\
+\end{array}\right)
+$$
+
 3. Solve the unique $T$ in the Lyapunov equation $TA-FT=lc$. Note that $T$ is an $(n-1)\times n$ matrix.
-4. Then the $(n-1)$ dimensional state equation
+
+$$
+T = \left(\begin{array}{cc} 
+0.1908 & -0.0318 & 0.0367 & -0.0083\\
+0.0482 & -0.006 & 0.1293 & -0.0205
+\end{array}\right)
+$$
+
+5. Then the $(n-1)$ dimensional state equation
 
 $$ 
 \dot{z} = Fz+TBu+ly
