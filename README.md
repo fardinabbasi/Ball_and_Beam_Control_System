@@ -306,3 +306,22 @@ The step response with the aforementioned state feedback $K_{fast}$ from the obs
 <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/o_fast_out.png">
 
 ### Q6
+1. Select an arbitrary $n \times n$ stable matrix $F$ that has no eigenvalues in common with those of $A$.
+2. Select an arbitrary $n \times 1$ vector $l$ such that $(F,l)$ is controllable.
+3. Solve the unique $T$ in the Lyapunov equation $TA-FT=lc$. Note that $T$ is an $(n-1)\times n$ matrix.
+4. Then the $(n-1)$ dimensional state equation
+
+$$ 
+\dot{z} = Fz+TBu+ly
+$$
+
+$$
+\hat{x} = \left(\begin{array}{cc} 
+c\\
+T\\
+\end{array}\right)^{-1}
+\left(\begin{array}{cc} 
+y\\
+z\\
+\end{array}\right)
+$$
