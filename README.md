@@ -301,7 +301,7 @@ L = \left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-The step response with the aforementioned state feedback $K_{fast}$ from the observer is depicted below.
+The step response of the linearized system with the aforementioned state feedback $K_{fast}$ from the observer is depicted below.
 
 <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/o_fast_out.png">
 
@@ -357,10 +357,16 @@ $$
 
 is an estimate of $X$.
 
-The step response with the aforementioned state feedback $K_{fast}$ from the reduced-dimensional observer is depicted below.
+The step response of the linearized system with the aforementioned state feedback $K_{fast}$ from the reduced-dimensional observer is depicted below.
 | States | Error |
 | --- | --- |
 | <img src="/readme_images/rd_state.png"> | <img src="/readme_images/rd_error.png"> |
 
 _where_ $error = z-TX$.
 ### Q7
+The step response of the non-linear system with the aforementioned state feedback $K_{fast}$ from the reduced-dimensional observer is depicted below.
+| States | Error |
+| --- | --- |
+| <img src="/readme_images/non_lin_rd_state.png"> | <img src="/readme_images/non_lin_rd_error.png"> |
+
+_where_ $error = z-TX$.
