@@ -390,4 +390,4 @@ The step response of the non-linear system with the aforementioned state feedbac
 | Disturbance | States | Outputs | 3D render |
 | --- | --- | --- | --- |
 | Amp = 0.1 | <img src="/readme_images/non_lin_d1_state.png"> | <img src="/readme_images/non_lin_d1_out.png"> | <img src="/readme_images/non_lin_d1.gif"> |
-| Amp = -0.1 | <img src="/readme_images/non_lin_d2_state.png"> | <img src="/readme_images/non_lin_d2_out.png"> | <img src="/readme_images/non_lin_d1.gif"> |
+| Amp = -0.1 | <img src="/readme_images/non_lin_d2_state.png"> | <img src="/readme_images/non_lin_d2_out.png"> | <img src="/readme_images/non_lin_d2.gif"> |
