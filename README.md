@@ -387,7 +387,7 @@ A single interval square signal is added as disturbance with the following prope
 * $Width = 0.05s$
 
 The step response of the non-linear system with the aforementioned state feedback $K_{fast}$ from the reduced-dimensional observer is depicted below.
-| Disturbance | States | Outputs |
-| --- | --- | --- |
-| Amp = 0.1 | <img src="/readme_images/non_lin_d1_state.png"> | <img src="/readme_images/non_lin_d1_out.png"> |
-| Amp = -0.1 | <img src="/readme_images/non_lin_d2_state.png"> | <img src="/readme_images/non_lin_d2_out.png"> |
+| Disturbance | States | Outputs | 3D render |
+| --- | --- | --- | --- |
+| Amp = 0.1 | <img src="/readme_images/non_lin_d1_state.png"> | <img src="/readme_images/non_lin_d1_out.png"> | <img src="/readme_images/non_lin_d1.gif"> |
+| Amp = -0.1 | <img src="/readme_images/non_lin_d2_state.png"> | <img src="/readme_images/non_lin_d2_out.png"> | <img src="/readme_images/non_lin_d1.gif"> |
