@@ -311,7 +311,7 @@ A reduced-dimensional state estimator is desined based on the following procedur
 * $\dot{X} = A_{n\times n}X_{n\times 1} + B_{p\times n}u_{p\times 1}$
 * $y_{l\times 1} = C_{l\times n}X_{n\times 1}$
 
-1. Select an arbitrary $n \times n$ stable matrix $F$ that has no eigenvalues in common with those of $A$.
+1. Select an arbitrary $(n-l) \times (n-l)$ stable matrix $F$ that has no eigenvalues in common with those of $A$.
 
 $$
 F = \left(\begin{array}{cc} 
@@ -320,7 +320,7 @@ F = \left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-2. Select an arbitrary $n \times 1$ vector $l$ such that $(F,l)$ is controllable.
+2. Select an arbitrary $(n-l) \times l$ vector $l$ such that $(F,l)$ is controllable.
 
 $$
 l = \left(\begin{array}{cc} 
@@ -329,7 +329,7 @@ l = \left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-3. Solve the unique $T$ in the Lyapunov equation $TA-FT=lC$. Note that $T$ is an $(n-1)\times n$ matrix.
+3. Solve the unique $T$ in the Lyapunov equation $TA-FT=lC$. Note that $T$ is an $(n-l)\times n$ matrix.
 
 $$
 T = \left(\begin{array}{cc} 
@@ -338,7 +338,17 @@ T = \left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-4. Then the $(n-1)$ dimensional state equation
+4. If
+
+$$
+P = \left(\begin{array}{cc} 
+C\\
+T\\
+\end{array}\right)
+$$
+
+is singular, go back to step 2; otherwise,
+consider the $(n-l)$ dimensional state equation
 
 $$ 
 \dot{z} = Fz+TBu+ly
