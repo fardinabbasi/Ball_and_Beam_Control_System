@@ -357,9 +357,10 @@ $$
 
 is an estimate of $X$.
 
-The step response with the aforementioned state feedback from the reduced-dimensional observer is depicted below.
+The step response with the aforementioned state feedback $K_{fast}$ from the reduced-dimensional observer is depicted below.
 | States | Error |
 | --- | --- |
 | <img src="/readme_images/rd_state.png"> | <img src="/readme_images/rd_error.png"> |
 
 _where_ $error = z-TX$.
+### Q7
