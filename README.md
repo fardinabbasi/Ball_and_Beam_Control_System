@@ -393,3 +393,5 @@ The step response of the non-linear system with the aforementioned state feedbac
 | States | <img src="/readme_images/non_lin_d1_state.png"> | <img src="/readme_images/non_lin_d2_state.png"> |
 | Outputs | <img src="/readme_images/non_lin_d1_out.png"> | <img src="/readme_images/non_lin_d2_out.png"> |
 | 3D render | <img src="/readme_images/non_lin_d1.gif"> | <img src="/readme_images/non_lin_d2.gif"> |
+## References
+* Chen, C. (1995). Linear System Theory and Design.
