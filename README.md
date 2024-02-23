@@ -329,7 +329,7 @@ l = \left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-3. Solve the unique $T$ in the Lyapunov equation $TA-FT=lc$. Note that $T$ is an $(n-1)\times n$ matrix.
+3. Solve the unique $T$ in the Lyapunov equation $TA-FT=lC$. Note that $T$ is an $(n-1)\times n$ matrix.
 
 $$
 T = \left(\begin{array}{cc} 
@@ -338,7 +338,7 @@ T = \left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-5. Then the $(n-1)$ dimensional state equation
+4. Then the $(n-1)$ dimensional state equation
 
 $$ 
 \dot{z} = Fz+TBu+ly
@@ -346,7 +346,7 @@ $$
 
 $$
 \hat{X} = \left(\begin{array}{cc} 
-c\\
+C\\
 T\\
 \end{array}\right)^{-1}
 \left(\begin{array}{cc} 
