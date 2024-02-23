@@ -306,6 +306,11 @@ The step response with the aforementioned state feedback $K_{fast}$ from the obs
 <img src="https://github.com/fardinabbasi/Ball_and_Beam_Control_System/blob/main/readme_images/o_fast_out.png">
 
 ### Q6
+A reduced-dimensional state estimator is desined based on the following procedure.
+
+* $\dot{X} = A_{n\times n}X_{n\times 1} + B_{p\times n}u_{p\times 1}$
+* $y_{l\times 1} = C_{l\times n}X_{n\times 1}$
+
 1. Select an arbitrary $n \times n$ stable matrix $F$ that has no eigenvalues in common with those of $A$.
 2. Select an arbitrary $n \times 1$ vector $l$ such that $(F,l)$ is controllable.
 3. Solve the unique $T$ in the Lyapunov equation $TA-FT=lc$. Note that $T$ is an $(n-1)\times n$ matrix.
@@ -316,7 +321,7 @@ $$
 $$
 
 $$
-\hat{x} = \left(\begin{array}{cc} 
+\hat{X} = \left(\begin{array}{cc} 
 c\\
 T\\
 \end{array}\right)^{-1}
@@ -325,3 +330,5 @@ y\\
 z\\
 \end{array}\right)
 $$
+
+is an estimate of $X$.
