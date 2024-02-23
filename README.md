@@ -320,16 +320,16 @@ F = \left(\begin{array}{cc}
 \end{array}\right)
 $$
 
-2. Select an arbitrary $(n-l) \times l$ vector $l$ such that $(F,l)$ is controllable.
+2. Select an arbitrary $(n-l) \times l$ matrix $L$ such that $(F,L)$ is controllable.
 
 $$
-l = \left(\begin{array}{cc} 
+L = \left(\begin{array}{cc} 
 1 & 0\\
 0 & 1\\
 \end{array}\right)
 $$
 
-3. Solve the unique $T$ in the Lyapunov equation $TA-FT=lC$. Note that $T$ is an $(n-l)\times n$ matrix.
+3. Solve the unique $T$ in the Lyapunov equation $TA-FT=LC$. Note that $T$ is an $(n-l)\times n$ matrix.
 
 $$
 T = \left(\begin{array}{cc} 
@@ -351,7 +351,7 @@ is singular, go back to step 2; otherwise,
 consider the $(n-l)$ dimensional state equation
 
 $$ 
-\dot{z} = Fz+TBu+ly
+\dot{z} = Fz+TBu+Ly
 $$
 
 $$
@@ -380,3 +380,10 @@ The step response of the non-linear system with the aforementioned state feedbac
 | <img src="/readme_images/non_lin_rd_state.png"> | <img src="/readme_images/non_lin_rd_error.png"> |
 
 _where_ $error = z-TX$.
+### Q8
+A single interval square signal is added as disturbance with the following properties.
+* Amplitude = 0.1
+* Delay = 5s
+* Width = 0.05s
+
+The step response of the non-linear system with the aforementioned state feedback $K_{fast}$ from the reduced-dimensional observer is depicted below.
