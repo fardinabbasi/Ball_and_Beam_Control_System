@@ -93,7 +93,7 @@ $$
 ### Q3
 Eigen values of the linearized system are outlined as:
 
-$$ \lambda_1 = 2.98, \lambda_2=-3.84, \lambda_{3,4}=-0.428&plusmn3.367i $$
+$$ \lambda_1 = 2.98, \lambda_2=-3.84, \lambda_{3,4}=-0.428±3.367i $$
 
 Since $λ_1$ is positive, the system is unstable unless this mode is controllable.
 ### Q4
@@ -159,9 +159,9 @@ e^{At} = \left(\begin{array}{cc}
 $$
 -->
 ### Q6
-Poles of $G(s)$ are $[2.98, -0.428 &plusmn 3.366i, -3.84]$.
+Poles of $G(s)$ are $[2.98, -0.428±3.366i, -3.84]$.
 
-Zeros of $G_1(s)$ are $&plusmn 18.7$ and the zero of $G_2(s)$ is 0.
+Zeros of $G_1(s)$ are $±18.7$ and the zero of $G_2(s)$ is 0.
 
 _Coefficients less than 1e-4 are considered to be 0._
 ### Q7
@@ -382,7 +382,7 @@ The step response of the non-linear system with the aforementioned state feedbac
 _where_ $error = z-TX$.
 ### Q8
 A single interval square signal is added as disturbance with the following properties.
-* $Amplitude = &plusmn 0.1$
+* $Amplitude = ±0.1$
 * $Delay = 5s$
 * $Width = 0.05s$
 
