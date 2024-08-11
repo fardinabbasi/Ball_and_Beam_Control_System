@@ -395,3 +395,9 @@ The step response of the non-linear system with the aforementioned state feedbac
 | 3D render | <img src="/readme_images/non_lin_d1.gif"> | <img src="/readme_images/non_lin_d2.gif"> |
 ## References
 * Chen, C. (1995). Linear System Theory and Design.
+## Course Description
+- **Course**: Modern Control Systems [ECE 447]
+- **Semester**: Fall 2023
+- **Institution:** [School of Electrical & Computer Engineering](https://ece.ut.ac.ir/en/), [College of Engineering](https://eng.ut.ac.ir/en), [University of Tehran](https://ut.ac.ir/en)
+- **Instructor:** Dr. Kebriaei
+- **Contributors:** [Fardin Abbasi](https://github.com/fardinabbasi), [Mohammad Mashreghi](https://github.com/M-Mashreghi)
